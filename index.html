@@ -1,0 +1,414 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Magento 2 Style Guide</title>
+	<!-- custom styles -->
+	<link rel="stylesheet" type="text/css"  media="all" href="css/custom-styleguide.css" />
+	<!-- Magento Specfic Styles -->
+	<link rel="stylesheet" type="text/css"  media="all" href="css/vendor/magento.css" />
+	<link rel="stylesheet" type="text/css"  media="all" href="css/bootstrap/form-control.css" />
+	<link rel="stylesheet" type="text/css"  media="all" href="css/bootstrap/extend-bootstrap.css" />
+
+	<!-- font awesome -->
+	<link rel="stylesheet" type="text/css"  media="all" href="css/vendor/fontawesome/css/all.css"> 
+	<script defer src="fontawesome/js/all.js"></script> <!--load all styles -->
+
+
+</head>
+<body>
+	<section>
+		<div class="styleguide-container">
+			<article>
+				<h1>Magento 2 Style Guide</h1>
+				<p>
+					Whilst Magento 2 at its core compiles with LESS & a Custom UI Kit, we harness the power of Bootstrap 4 alongside other key components from the best of front end frameworks available today and extend them into our custom styles.
+			</article>
+
+				<article>
+				<nav>
+				<ul>
+					<li><a href="#colors" class="listitem">colors</a></li>
+					<li><a href="#typography" class="listitem">typography</a></li>
+					<li><a href="#headings" class="listitem">headings</a></li>
+					<li><a href="#buttons" class="listitem">buttons</a></li>
+					<li><a href="#icons" class="listitem">icons</a></li>
+					<li><a href="#forms" class="listitem">forms</a></li>
+				</ul>
+			</nav>
+			</article>
+			<article id="colors">
+				<h1>Brand Colors</h1>
+				<p>
+					The consistent use of our primary palette is integral to maintaining our brand identity. These three key tones not only reinforce our brand cohesiveness but also forties the main message behind our tone of voice; simple and straight to the point.
+				</p>
+			</article>
+
+			<article>
+				<h2>Brand Primary</h2>
+				<div class="wrapper">
+					<ul class="pallette primary-color-pallette">
+						<li class="">
+							<div class="color-pallette brand-black text-white">.brand-black</div>
+							<p><strong>HEX: </strong> #1A1A1A</p>
+							<p><strong>CMYK: </strong>0, 0, 0, 90</p>
+							<p><strong>RGB: </strong>26, 26, 26</p>
+						</li>
+						<li class="">
+							<div class="color-pallette brand-grey">.brand-grey</div>
+							<p><strong>HEX: </strong> #EFEFEF</p>
+							<p><strong>CMYK: </strong>0, 0, 0, 6</p>
+							<p><strong>RGB: </strong>239, 239, 239</p>
+						</li>
+						<li class="">
+							<div class="color-pallette brand-white">.brand-white</div>
+							<p><strong>HEX: </strong> #FFFFFF</p>
+							<p><strong>CMYK: </strong>0, 0, 0, 0</p>
+							<p><strong>RGB: </strong>255, 255, 255</p>
+						</li>
+					</ul>
+				</div>
+			</article>
+
+			<article>
+				<h2>Brand Secondary</h2>
+				<div class="wrapper">
+					<ul class="pallette secondary-color-pallette">
+						<li class="">
+							<div class="color-pallette brand-red">.brand-red</div>
+							<p><strong>HEX: </strong> #B10B27</p>
+							<p><strong>CMYK: </strong>0, 94, 78, 31</p>
+							<p><strong>RGB: </strong>177, 11, 39</p>
+						</li>
+						<li class="">
+							<div class="color-pallette brand-green">.brand-green</div>
+							<p><strong>HEX: </strong> #78B83D</p>
+							<p><strong>CMYK: </strong>35, 0, 67, 28</p>
+							<p><strong>RGB: </strong>120, 184 ,61</p>
+						</li>
+						<li class="">
+							<div class="color-pallette brand-purple text-white">.brand-purple</div>
+							<p><strong>HEX: </strong> #64007C</p>
+							<p><strong>CMYK: </strong>19, 100, 0, 51</p>
+							<p><strong>RGB: </strong>100, 0, 124</p>
+						</li>
+					</ul>
+				</div>
+			</article>
+
+			<article id="typography">
+				<h1>Typography</h1>
+				
+				<h2>Fonts</h2>
+				<div class="wrapper">
+					<p>Your font families are <strong>Futura PT</strong></p>
+					<p>Your font families are <strong>Monseratt</strong></p>
+				</div>
+
+				<h3>Futura PT</h3>
+				<div class="wrapper">
+					<!-- <p>Futura PT</p> -->
+					<p style="font-size:100px;">Aa</p>
+					<p class="m-0"><strong>Web Letter-Spacing: 0em</strong></p>
+					<p><strong>Adobe Letter-Tracking: 0</strong></p>
+
+					<p class="letter-spacing m-0">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+					<p class="letter-spacing m-0">abcdefghijklmnopqrstuvwxyz</p>
+					<p class="letter-spacing m-0">0123456789</p>
+				</div>
+
+				<h3>Monserattt</h3>
+				<div class="wrapper">
+					<!-- <p>Monseratt</p> -->
+					<p style="font-size:100px;">Aa</p>
+					<div class="wrapper mb-10">
+						<p class="m-0"><strong>Web Letter-Spacing: - 0.025em</strong></p>
+						<p class=""><strong>Adobe Letter-Tracking: -25</strong></p>
+						
+						<p class="letter-spacing-1 m-0">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+						<p class="letter-spacing-1 m-0">abcdefghijklmnopqrstuvwxyz</p>
+						<p class="letter-spacing-1 m-0">0123456789</p>
+						
+					</div>
+					<div class="wrapper mb-10">
+						<p class="m-0"><strong>Web Letter-Spacing: - 0.25em</strong></p>
+						<p class=""><strong>Adobe Letter-Tracking: 250</strong></p>
+						
+						<p class="letter-spacing-2 m-0">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+						<p class="letter-spacing-2 m-0">abcdefghijklmnopqrstuvwxyz</p>
+						<p class="letter-spacing-2 m-0">0123456789</p>
+					</div>
+					<div class="wrapper mb-10">
+						<p class="m-0"><strong>Web Letter-Spacing: - 0.5em</strong></p>
+						<p class=""><strong>Adobe Letter-Tracking: 500</strong></p>
+						
+						<p class="letter-spacing-3 m-0">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+						<p class="letter-spacing-3 m-0">abcdefghijklmnopqrstuvwxyz</p>
+						<p class="letter-spacing-3 m-0">0123456789</p>
+						
+					</div>
+				</div>
+			</article>
+
+			<article id="headings">
+				<h2>Headings</h2>
+				<p>All headings have a default margin bottom of 0.5rem and a font weight of bold. The Heading font size is equal to the computated font size of the root element, font sizes at the different breakpoints will need to be considered</p>
+				<p>1em is equal to the @base-font-size of 16px</p>
+
+				<div class="block-text">
+					<div class="wrapper mb-10">
+						<h1>H1 - This is a headline style</h1>
+						<ul>
+							<li>font-size: 2em</li>
+							<li>font-family: Monserrat</li>
+							<li>text-transform: uppercase</li>
+						</ul>
+					</div>
+					<div class="wrapper mb-10">
+						<h2>H2 - This is a headline style</h2>
+						<ul>
+							<li>font-size: 1.5em</li>
+							<li>font-family: Monserrat</li>
+							<li>text-transform: uppercase</li>
+						</ul>
+					</div>
+					<div class="wrapper mb-10">
+						<h3>H3 - This is a headline style</h3>
+						<ul>
+							<li>font-size: 1.17em</li>
+							<li>font-family: Monserrat</li>
+							<li>text-transform: uppercase</li>
+						</ul>
+					</div>
+					<div class="wrapper mb-10">
+						<h4>H4 - This is a headline style</h4>
+						<ul>
+							<li>font-size: 1em</li>
+							<li>font-family: Monserrat</li>
+							<li>text-transform: uppercase</li>
+						</ul>
+					</div>
+					<div class="wrapper mb-10">
+						<h5>H5 - This is a headline style</h5>
+						<ul>
+							<li>font-size: .83em</li>
+							<li>font-family: Monserrat</li>
+							<li>text-transform: uppercase</li>
+						</ul>
+					</div>
+					<div class="wrapper mb-10">
+						<h6>H6 - This is a headline style</h6>
+						<ul>
+							<li>font-size: .75em</li>
+							<li>font-family: Monserrat</li>
+							<li>text-transform: uppercase</li>
+						</ul>
+					</div>
+				</div>
+
+				<h2>Paragragh Styles</h2>
+				<p>examples for common text utilities to control alignment, wrapping, weight, and more.</p>
+				<div class="block-text wrapper">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quo id, dicta officiis minima, corrupti porro dolor ea reiciendis doloribus consequatur cupiditate omnis, architecto, facilis accusantium excepturi doloremque eum quae?</p>
+
+					<ul>
+						<li>font-size: 1em</li>
+						<li>font-family: Monserrat</li>
+					</ul>
+					<!--
+					<pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"font-weight-bold"</span><span class="nt">&gt;</span>Bold text.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"font-weight-normal"</span><span class="nt">&gt;</span>Normal weight text.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"font-weight-light"</span><span class="nt">&gt;</span>Light weight text.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"font-italic"</span><span class="nt">&gt;</span>Italic text.<span class="nt">&lt;/p&gt;</span></code></pre> -->
+					
+					<!-- <code>
+						<p class="text-sm-left">Left aligned text on viewports sized SM (small) or wider.</p>
+						<p class="text-md-left">Left aligned text on viewports sized MD (medium) or wider.</p>
+						<p class="text-lg-left">Left aligned text on viewports sized LG (large) or wider.</p>
+						<p class="text-xl-left">Left aligned text on viewports sized XL (extra-large) or wider.</p>
+					</code> -->
+
+				</div>
+
+				<h2>Text Styles</h2>
+				<div class="block-text wrapper">
+
+					<p class="text-left">Left aligned text on all viewport sizes.</p>
+					<p class="text-center">Center aligned text on all viewport sizes.</p>
+					<p class="text-right">Right aligned text on all viewport sizes.</p>
+
+
+					<p class="text-lowercase">Lowercased text.</p>
+					<p class="text-uppercase">Uppercased text.</p>
+					<p class="text-capitalize">CapiTaliZed text.</p>
+
+					<p class="font-weight-bold">Bold text.</p>
+					<p class="font-weight-normal">Normal weight text.</p>
+					<p class="font-weight-light">Light weight text.</p>
+					<p class="font-italic">Italic text.</p>
+				</div>
+
+
+				<h2>Hyperlink Styles</h2>
+					<div class="hyperlink wrapper">
+					<p>this is a <a href="http://www.google.co.uk" class="google-link">hyperlink</a> to google</p>
+					<p class="mt-10">by default it has 4 states - each of which is represented by the color below</p>
+
+					<p class="m-0 link">a:link</p>
+					<p class="m-0 hover">a:hover</p>
+					<p class="m-0 active">a:active</p>
+					<p class="m-0 visited">a:visited</p>
+
+
+				</div>
+
+				<h2>List Styles</h2>
+				<div class="block-text wrapper">
+					<p>unordered list</p>
+					<ul>
+						<li><a href="">anchored list item</a></li>
+						<li>list item</li>
+						<li>list item</li>
+						<li>list item</li>
+					</ul>
+					<p>organised list</p>
+					<ol>
+						<li><a href="">anchored list item</a></li>
+						<li>list item</li>
+						<li>list item</li>
+						<li>list item</li>
+					</ol>
+					<p>custom image</p>
+					<ul class="image">
+						<li><a href="">anchored list item</a></li>
+						<li>list item</li>
+						<li>list item</li>
+						<li>list item</li>
+					</ul>
+					<p>applied list styles</p>
+					<ul>
+						<li>font-size: 1rem</li>
+					</ul>
+				</div>
+			</article>
+
+			<article id="buttons">
+				<h2>Default Magento UI Button Styles</h2>
+				<p>We extend the default magento UI using the custom brand ui buttons</p>
+
+				<div class="wrapper">
+					<button class="">press me</button>
+					<button class="action primary">press me</button>
+					<button class="action secondary">press me</button>
+				</div>
+
+				<h2>Bootstrap 4.4.1 Button Styles</h2>
+				<p>Default bootstrap class names are used to style buttons</p>
+
+				<div class="wrapper">
+					<button type="button" class="btn">Basic</button>
+					<button type="button" class="btn btn-primary">Primary</button>
+					<button type="button" class="btn btn-secondary">Secondary</button>
+					<button type="button" class="btn btn-success">Success</button>
+					<button type="button" class="btn btn-info">Info</button>
+					<button type="button" class="btn btn-warning">Warning</button>
+					<button type="button" class="btn btn-danger">Danger</button>
+					<button type="button" class="btn btn-dark">Dark</button>
+					<button type="button" class="btn btn-light">Light</button>
+					<button type="button" class="btn btn-link">Link</button> 
+				</div>
+
+				<h2>Custom Brand UI Button Styles</h2>
+				<p>Brand styles called by class name</p>
+				<div class="wrapper">
+					<button type="button" class="">Basic</button>
+					<button type="button" class="brand-btn-primary">Primary</button>
+					<button type="button" class="brand-btn-secondary">Secondary</button>
+			</article>
+
+			<article id="icons">
+				<h2>Nucleo Icon set</h2>
+				<div class="wrapper">
+					<i class="fas fa-user"></i> <!-- uses solid style -->
+				</div>
+			</article>
+
+			<article>
+				<h2>Font Awesome 5 Icon set</h2>
+				<div class="wrapper">
+					<div>
+						<p>webpage icons</p>
+						<i class="icon fas fa-bars"></i><!-- uses solid style -->
+						<i class="icon fas fa-user"></i><!-- uses solid style -->
+						<i class="icon fas fa-search"></i><!-- uses solid style -->
+						<i class="icon fas fa-shopping-basket"></i><!-- uses solid style -->
+					</div>
+
+					<div>
+						<!--brand icon-->
+						<p>brand icons</p>
+						<i class="icon fab fa-github-square"></i> <!-- uses brands style -->
+						<i class="icon fab fa-twitter-square"></i> <!-- uses brands style -->
+						<i class="icon fab fa-facebook-square"></i> <!-- uses brands style -->
+						<i class="icon fab fa-apple"></i><!-- uses brands style -->
+						<i class="icon fab fa-app-store-ios"></i><!-- uses brands style -->
+					</div>
+				</div>
+			</article>
+
+			<article id="forms">
+				<h2>Bootstrap Form Group</h2>
+				<p>Bootstrap form groups deliver pre defined styles & web accessibility standards by default to HTML web forms</p>
+
+				<div class="wrapper">
+					<form>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Email address</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+					    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Password</label>
+					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					  </div>
+					  <div class="form-check">
+					    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+					    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+					  </div>
+					  <br />
+					  <button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</article>
+
+			<article>
+				<h2>Form Validations</h2>
+				<div class="wrapper">
+					<form>
+					  <div class="form-group">
+					    <label for="">Email address</label>
+					    <input type="email" class="form-control valid" id="" aria-describedby="" placeholder="Enter email">
+					    <p class="text-valid">Your email was added</p>
+					  </div>
+					  <div class="form-group">
+					    <label for="">Password</label>
+					    <input type="password" class="form-control invalid" id="" placeholder="Password">
+					    <p class="text-invalid">You have entered an incorrect password</p>
+					  </div>
+					</form>
+				</div>
+			</article>
+
+			<!-- <article>
+				<h2>Bootstrap Inputs</h2>
+				<div class="wrapper">
+
+				</div>
+			</article> -->
+		</div>
+	</section>
+
+	<footer>
+	</footer>
+</body>
+</html>

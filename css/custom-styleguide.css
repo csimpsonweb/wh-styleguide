@@ -1,0 +1,176 @@
+body {
+	font-size:12px;
+}
+
+.styleguide-container {
+	max-width:1140px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1, h2 , h3 , h4 , h5 , h6 {
+	text-transform: uppercase;
+}
+
+li a {
+	font-size:1rem;
+}
+.text-white {
+	color:white;
+}
+
+.wrapper {
+	padding:20px;
+	border:1px solid lightgrey;
+}
+.disc {
+	list-style-type: disc;
+}
+.circle {
+		list-style-type: circle;
+}
+.square {
+		list-style-type: square;
+}
+.image {
+  	line-height: 1.5em;
+  	list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-marker.png);
+}
+.letter-spacing-1 {
+	letter-spacing: 0.025em;
+}
+.letter-spacing-2 {
+	letter-spacing: 0.25em;
+}
+.letter-spacing-3 {
+	letter-spacing: 0.5em;
+}
+.color-pallette {
+	width:150px;
+	height:50px;
+	background:red;
+	padding:10px;
+	margin-bottom:5px;
+}
+.block-text li {
+	font-size:12px;
+  	font-family: monospace;
+  	margin-bottom:0px;
+}
+.heading-text .wrapper p:last-child {
+	margin-bottom:20px;
+}
+.pallette li{
+	display: inline-block;
+}
+
+/*Primary Pallette*/
+
+.brand-black {
+	background:#1A1A1A;
+}
+.brand-white {
+	background:#FFFFFF;
+}
+.brand-grey {
+	background:#EFEFEF;
+}
+
+/*Secondary Pallette */
+
+.brand-red {
+	background:#B10B27;
+}
+.brand-green {
+	background:#78B83D;
+}
+.brand-purple {
+	background:#64007C;
+}
+
+.mb-10 {
+	margin-bottom:10px;
+}
+.mb-0 {
+	margin-bottom:0px;
+}
+.mt-10 {
+	margin-top:10px;
+}
+.mt-0 {
+	margin-top:0px;
+}
+.m-0 {
+	margin:0px;
+}
+/* unvisited link */
+
+a:link, .link {
+  text-decoration: none;
+  color: purple!important;
+}
+
+/* visited link */
+a:visited, .visited {
+  text-decoration: none;
+  color: purple!important;
+}
+
+/* mouse over link */
+a:hover, .hover {
+  text-decoration: underline;
+  color: green!important;
+}
+
+/* selected link */
+a:active, .active {
+  text-decoration: underline;
+  color: red!important;
+}
+
+.form-control {
+	width:96%!important;
+}
+.valid.form-control{
+    color: #495057;
+    background-color: #fff;
+    border-color: green;
+    border-left:5px solid green;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+.invalid.form-control{
+    color: #495057;
+    background-color: #fff;
+    border-color: red;
+    border-left:5px solid red;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+
+.valid.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: green;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+.invalid.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: red;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+.icon {
+	font-size:60px;
+	margin: 0 20px 20px 0;
+}
+.icon:hover {
+	color:gray;
+}
+footer {
+
+	height:200px;
+}
+

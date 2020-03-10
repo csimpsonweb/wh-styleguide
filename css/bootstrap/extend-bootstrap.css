@@ -1,0 +1,11 @@
+.text-valid {
+	color:green;
+	padding:10px;
+	font-weight:thin;
+}
+
+.text-invalid {
+	color:red;
+	padding:10px;
+	font-weight:thin;
+}
