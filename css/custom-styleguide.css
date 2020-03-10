@@ -1,15 +1,105 @@
-body {
-	font-size:12px;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Source+Serif+Pro:400,600,700&display=swap&subset=latin-ext');
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+  body {
+  	font-family: 'Source Serif Pro', serif;
+    font-size:3vw;
+  }
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  body {
+    font-size:2vw;
+    font-family: 'Source Serif Pro', serif;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    font-size:1.5vw;
+    font-family: 'Source Serif Pro', serif;
+  	}
+  	h1 {
+	  display: block;
+	  font-size: 3rem;
+	  margin-top: 0.67rem;
+	  margin-bottom: 0.67rem;
+	  margin-left: 0;
+	  margin-right: 0;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	}
+	h2 {
+	  display: block;
+	  font-size: 2.4rem;
+	  margin-top: 0.83rem;
+	  margin-bottom: 0.83rem;
+	  margin-left: 0;
+	  margin-right: 0;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	}
+	h3 {
+	  display: block;
+	  font-size: 2rem;
+	  margin-top: 1rem;
+	  margin-bottom: 1rem;
+	  margin-left: 0;
+	  margin-right: 0;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	  text-transform:uppercase;
+	}
+	h4 {
+	  display: block;
+	  font-size: 1.6rem;
+	  margin-top: 1.33rem;
+	  margin-bottom: 1.33rem;
+	  margin-left: 0;
+	  margin-right: 0;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	}
+	h5 {
+	  display: block;
+	  font-size: 1.4rem;
+	  margin-top: 1.67rem;
+	  margin-bottom: 1.67rem;
+	  margin-left: 0;
+	  margin-right: 0;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	}
+	h6 {
+	  display: block;
+	  font-size: 1.2rem;
+	  margin-top: 2.33rem;
+	  margin-bottom: 2.33rem;
+	  margin-left: 0;
+	  margin-right: 0;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    /*font-size:1vw;*/
+    font-size:12.5px;
+    font-family: 'Source Serif Pro', serif;
+  }
+}
+h3 {
+  text-transform:uppercase;
+}
 .styleguide-container {
 	max-width:1140px;
 	margin-left:auto;
 	margin-right:auto;
-}
-
-h1, h2 , h3 , h4 , h5 , h6 {
-	text-transform: uppercase;
 }
 
 li a {
@@ -66,27 +156,110 @@ li a {
 
 /*Primary Pallette*/
 
-.brand-black {
-	background:#1A1A1A;
+.brand-dark {
+	background:#25282A;
 }
 .brand-white {
 	background:#FFFFFF;
 }
 .brand-grey {
-	background:#EFEFEF;
+	background:#F3F3F3;
 }
 
 /*Secondary Pallette */
+.brand-skyblue {
+	background:#D0DEEA;
+}
+.brand-orange {
+	background:#F8D87A;
+}
+.brand-lightgreen {
+	background:#E1EBCF;
+}
+.brand-darkgreen {
+	background:#828C6C;
+}
+.brand-darkpink {
+	background:#E7D0D0;
+}
+.brand-lightpink {
+	background:#E8DDD1;
+}
+/* --- */
+.brand-success-red {
+	background:#AF102B;
+}
+.brand-success-green {
+	background:#48B280;
+}
+/* --- */
+.brand-btn-success-red {
+	background:#AF102B;
+}
+.brand-btn-success-green {
+	background:#48B280;
+}
+.brand-btn-dark {
+	background:#25282A;
+}
+.brand-btn-light {
+	background:#F3F3F3;
+}
+/* --- */
+.brand-btn-success-red:hover {
+	background:#930323;
+}
+.brand-btn-success-green:hover {
+	background:#288C59;
+}
+.brand-btn-dark:hover {
+	background:#4D4E4F;
+}
+.brand-btn-light:hover {
+	background:#E2E2E2;
+}
+.text-dark {
+	color:#25282A!important;
+}
+.brand-btn {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.625rem 3rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 4px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-family: 'Open Sans', sans-serif;
 
-.brand-red {
-	background:#B10B27;
 }
-.brand-green {
-	background:#78B83D;
+
+
+
+.font-georgia {
+  font-family: 'Source Serif Pro', serif;
+
 }
-.brand-purple {
-	background:#64007C;
+.font-twcen {
+  font-family: 'Open Sans', sans-serif;
+
 }
+.font-vectra {
+	
+}
+
+
+
+
+/* --- */
 
 .mb-10 {
 	margin-bottom:10px;
@@ -107,19 +280,19 @@ li a {
 
 a:link, .link {
   text-decoration: none;
-  color: purple!important;
+  color: #25282A!important;
 }
 
 /* visited link */
 a:visited, .visited {
   text-decoration: none;
-  color: purple!important;
+  color: #25282A!important;
 }
 
 /* mouse over link */
 a:hover, .hover {
   text-decoration: underline;
-  color: green!important;
+  color: #4D4E4F!important;
 }
 
 /* selected link */
@@ -173,4 +346,3 @@ footer {
 
 	height:200px;
 }
-
