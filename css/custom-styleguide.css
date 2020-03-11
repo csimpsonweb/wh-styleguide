@@ -1,4 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Source+Serif+Pro:400,600,700&display=swap&subset=latin-ext');
+/* Import Futura PT */
+@import url('https://use.typekit.net/scc6con.js');
+/* Import AntroDectra */
+@font-face {
+  font-family: 'AntroDectra';
+  src: url('vendor/fonts/antro_vectra/Antro_Vectra.eot'); /* IE9 Compat Modes */
+  src: url('vendor/fonts/antro_vectra/Antro_Vectra.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('vendor/fonts/antro_vectra/antro_vectra_bolder.woff2') format('woff2'), /* Super Modern Browsers */
+       url('vendor/fonts/antro_vectra/Antro_Vectra.woff') format('woff'), /* Pretty Modern Browsers */
+       url('vendor/fonts/antro_vectra/Antro_Vectra.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('vendor/fonts/antro_vectra/Antro_Vectra.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 480px) {
   body {
@@ -22,6 +34,7 @@
     font-size:1.5vw;
     font-family: 'Source Serif Pro', serif;
   	}
+  	
   	h1 {
 	  display: block;
 	  font-size: 3rem;
@@ -89,7 +102,7 @@
 @media only screen and (min-width: 1200px) {
   body {
     /*font-size:1vw;*/
-    font-size:12.5px;
+    font-size:12.48px;
     font-family: 'Source Serif Pro', serif;
   }
 }
@@ -242,23 +255,15 @@ li a {
 
 }
 
-
-
 .font-georgia {
-  font-family: 'Source Serif Pro', serif;
-
+  font-family: 'Georgia', serif
 }
 .font-twcen {
-  font-family: 'Open Sans', sans-serif;
-
+  font-family: 'twcen', sans-serif;
 }
 .font-vectra {
-	
+  font-family: 'AntroDectra', sans-serif;
 }
-
-
-
-
 /* --- */
 
 .mb-10 {
